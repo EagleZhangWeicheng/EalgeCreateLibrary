@@ -16,6 +16,10 @@
 		6642A5221D39129100C5BF98 /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A51F1D39129100C5BF98 /* CopyLabel.swift */; };
 		6642A5231D39129100C5BF98 /* CopyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5211D39129100C5BF98 /* CopyWebView.swift */; };
 		6642A5261D39152200C5BF98 /* HexValueToUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5251D39152200C5BF98 /* HexValueToUIColor.swift */; };
+		6642A52A1D391B9000C5BF98 /* SIImageSequenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5291D391B9000C5BF98 /* SIImageSequenceView.m */; };
+		6642A52D1D391BF200C5BF98 /* EagleGuestureImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6642A52C1D391BF200C5BF98 /* EagleGuestureImageView.m */; };
+		6642A5301D391C6300C5BF98 /* EalgeCreateLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */; };
+		6642A5311D391C6300C5BF98 /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52F1D391C6300C5BF98 /* LICENSE.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +46,12 @@
 		6642A51F1D39129100C5BF98 /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
 		6642A5211D39129100C5BF98 /* CopyWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyWebView.swift; sourceTree = "<group>"; };
 		6642A5251D39152200C5BF98 /* HexValueToUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexValueToUIColor.swift; sourceTree = "<group>"; };
+		6642A5281D391B9000C5BF98 /* SIImageSequenceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SIImageSequenceView.h; sourceTree = "<group>"; };
+		6642A5291D391B9000C5BF98 /* SIImageSequenceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SIImageSequenceView.m; sourceTree = "<group>"; };
+		6642A52B1D391BF200C5BF98 /* EagleGuestureImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EagleGuestureImageView.h; sourceTree = "<group>"; };
+		6642A52C1D391BF200C5BF98 /* EagleGuestureImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EagleGuestureImageView.m; sourceTree = "<group>"; };
+		6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EalgeCreateLibrary.podspec; sourceTree = "<group>"; };
+		6642A52F1D391C6300C5BF98 /* LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +75,8 @@
 		6642A4DC1D38D16000C5BF98 = {
 			isa = PBXGroup;
 			children = (
+				6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */,
+				6642A52F1D391C6300C5BF98 /* LICENSE.rtf */,
 				6642A4E71D38D16000C5BF98 /* EalgeCreateLibrary */,
 				6642A4FC1D38D16000C5BF98 /* EalgeCreateLibraryTests */,
 				6642A4E61D38D16000C5BF98 /* Products */,
@@ -89,6 +101,7 @@
 				6642A4EF1D38D16000C5BF98 /* Assets.xcassets */,
 				6642A4F11D38D16000C5BF98 /* LaunchScreen.storyboard */,
 				6642A4F41D38D16000C5BF98 /* Info.plist */,
+				6642A5271D391B9000C5BF98 /* SIImageSequenceView */,
 				6642A5241D39152200C5BF98 /* HexValueToUIColor */,
 				6642A51E1D39129100C5BF98 /* CopyLabel */,
 				6642A5201D39129100C5BF98 /* CopyWebView */,
@@ -127,6 +140,17 @@
 				6642A5251D39152200C5BF98 /* HexValueToUIColor.swift */,
 			);
 			path = HexValueToUIColor;
+			sourceTree = "<group>";
+		};
+		6642A5271D391B9000C5BF98 /* SIImageSequenceView */ = {
+			isa = PBXGroup;
+			children = (
+				6642A52B1D391BF200C5BF98 /* EagleGuestureImageView.h */,
+				6642A52C1D391BF200C5BF98 /* EagleGuestureImageView.m */,
+				6642A5281D391B9000C5BF98 /* SIImageSequenceView.h */,
+				6642A5291D391B9000C5BF98 /* SIImageSequenceView.m */,
+			);
+			path = SIImageSequenceView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -211,7 +235,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6642A4F31D38D16000C5BF98 /* LaunchScreen.storyboard in Resources */,
+				6642A5301D391C6300C5BF98 /* EalgeCreateLibrary.podspec in Resources */,
 				6642A4F01D38D16000C5BF98 /* Assets.xcassets in Resources */,
+				6642A5311D391C6300C5BF98 /* LICENSE.rtf in Resources */,
 				6642A4EE1D38D16000C5BF98 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -231,7 +257,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6642A5231D39129100C5BF98 /* CopyWebView.swift in Sources */,
+				6642A52A1D391B9000C5BF98 /* SIImageSequenceView.m in Sources */,
 				6642A4EB1D38D16000C5BF98 /* ViewController.swift in Sources */,
+				6642A52D1D391BF200C5BF98 /* EagleGuestureImageView.m in Sources */,
 				6642A5261D39152200C5BF98 /* HexValueToUIColor.swift in Sources */,
 				6642A5221D39129100C5BF98 /* CopyLabel.swift in Sources */,
 				6642A4E91D38D16000C5BF98 /* AppDelegate.swift in Sources */,
