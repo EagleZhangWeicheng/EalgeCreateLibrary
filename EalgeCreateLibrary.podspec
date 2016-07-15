@@ -112,7 +112,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'SIImageSequenceView' do |ss|
-    ss.source_files = 'EalgeCreateLibrary/SIImageSequenceView/*'
+    ss.source_files = 'EalgeCreateLibrary/SIImageSequenceView/*.{h,m}'
     ss.ios.frameworks = 'UIKit'
   end
 
