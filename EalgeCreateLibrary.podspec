@@ -106,6 +106,12 @@ Pod::Spec.new do |s|
     ss.ios.frameworks = 'UIKit'
   end
 
+  s.subspec 'HexValueToUIColor' do |ss|
+  ss.source_files = 'EalgeCreateLibrary/HexValueToUIColor/*'
+  ss.ios.frameworks = 'UIKit'
+  end
+
+
 
 
 
