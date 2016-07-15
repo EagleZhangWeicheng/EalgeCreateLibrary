@@ -21,6 +21,7 @@
 		6642A5301D391C6300C5BF98 /* EalgeCreateLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */; };
 		6642A5311D391C6300C5BF98 /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52F1D391C6300C5BF98 /* LICENSE.rtf */; };
 		6642A5341D391E4800C5BF98 /* StringIsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */; };
+		6642A5D61D39204800C5BF98 /* DM5String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5D51D39204800C5BF98 /* DM5String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EalgeCreateLibrary.podspec; sourceTree = "<group>"; };
 		6642A52F1D391C6300C5BF98 /* LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
 		6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringIsValidEmail.swift; sourceTree = "<group>"; };
+		6642A5D51D39204800C5BF98 /* DM5String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DM5String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				6642A4EF1D38D16000C5BF98 /* Assets.xcassets */,
 				6642A4F11D38D16000C5BF98 /* LaunchScreen.storyboard */,
 				6642A4F41D38D16000C5BF98 /* Info.plist */,
+				6642A5D41D39204800C5BF98 /* DM5String */,
 				6642A5321D391E4800C5BF98 /* StringIsValidEmail */,
 				6642A5271D391B9000C5BF98 /* SIImageSequenceView */,
 				6642A5241D39152200C5BF98 /* HexValueToUIColor */,
@@ -162,6 +165,14 @@
 				6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */,
 			);
 			path = StringIsValidEmail;
+			sourceTree = "<group>";
+		};
+		6642A5D41D39204800C5BF98 /* DM5String */ = {
+			isa = PBXGroup;
+			children = (
+				6642A5D51D39204800C5BF98 /* DM5String.swift */,
+			);
+			path = DM5String;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6642A5D61D39204800C5BF98 /* DM5String.swift in Sources */,
 				6642A5231D39129100C5BF98 /* CopyWebView.swift in Sources */,
 				6642A52A1D391B9000C5BF98 /* SIImageSequenceView.m in Sources */,
 				6642A4EB1D38D16000C5BF98 /* ViewController.swift in Sources */,

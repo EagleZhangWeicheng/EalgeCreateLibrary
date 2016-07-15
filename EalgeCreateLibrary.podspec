@@ -121,6 +121,12 @@ Pod::Spec.new do |s|
     ss.ios.frameworks = 'UIKit'
   end
 
+  s.subspec 'DM5String' do |ss|
+    ss.source_files = 'EalgeCreateLibrary/DM5String/*'
+    ss.ios.frameworks = 'UIKit'
+  end
+
+
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
