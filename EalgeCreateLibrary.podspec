@@ -116,9 +116,10 @@ Pod::Spec.new do |s|
     ss.ios.frameworks = 'UIKit'
   end
 
-
-
-
+  s.subspec 'StringIsValidEmail' do |ss|
+    ss.source_files = 'EalgeCreateLibrary/StringIsValidEmail/*'
+    ss.ios.frameworks = 'UIKit'
+  end
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

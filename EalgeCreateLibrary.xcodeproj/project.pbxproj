@@ -20,6 +20,7 @@
 		6642A52D1D391BF200C5BF98 /* EagleGuestureImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6642A52C1D391BF200C5BF98 /* EagleGuestureImageView.m */; };
 		6642A5301D391C6300C5BF98 /* EalgeCreateLibrary.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */; };
 		6642A5311D391C6300C5BF98 /* LICENSE.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 6642A52F1D391C6300C5BF98 /* LICENSE.rtf */; };
+		6642A5341D391E4800C5BF98 /* StringIsValidEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		6642A52C1D391BF200C5BF98 /* EagleGuestureImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EagleGuestureImageView.m; sourceTree = "<group>"; };
 		6642A52E1D391C6300C5BF98 /* EalgeCreateLibrary.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EalgeCreateLibrary.podspec; sourceTree = "<group>"; };
 		6642A52F1D391C6300C5BF98 /* LICENSE.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = LICENSE.rtf; sourceTree = "<group>"; };
+		6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringIsValidEmail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 				6642A4EF1D38D16000C5BF98 /* Assets.xcassets */,
 				6642A4F11D38D16000C5BF98 /* LaunchScreen.storyboard */,
 				6642A4F41D38D16000C5BF98 /* Info.plist */,
+				6642A5321D391E4800C5BF98 /* StringIsValidEmail */,
 				6642A5271D391B9000C5BF98 /* SIImageSequenceView */,
 				6642A5241D39152200C5BF98 /* HexValueToUIColor */,
 				6642A51E1D39129100C5BF98 /* CopyLabel */,
@@ -151,6 +154,14 @@
 				6642A5291D391B9000C5BF98 /* SIImageSequenceView.m */,
 			);
 			path = SIImageSequenceView;
+			sourceTree = "<group>";
+		};
+		6642A5321D391E4800C5BF98 /* StringIsValidEmail */ = {
+			isa = PBXGroup;
+			children = (
+				6642A5331D391E4800C5BF98 /* StringIsValidEmail.swift */,
+			);
+			path = StringIsValidEmail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				6642A52D1D391BF200C5BF98 /* EagleGuestureImageView.m in Sources */,
 				6642A5261D39152200C5BF98 /* HexValueToUIColor.swift in Sources */,
 				6642A5221D39129100C5BF98 /* CopyLabel.swift in Sources */,
+				6642A5341D391E4800C5BF98 /* StringIsValidEmail.swift in Sources */,
 				6642A4E91D38D16000C5BF98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
