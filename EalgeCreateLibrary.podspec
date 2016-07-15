@@ -97,12 +97,12 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.subspec 'CopyLabel' do |ss|
-    ss.source_files = 'CopyLabel/*'
+    ss.source_files = 'EalgeCreateLibrary/CopyLabel/*'
     ss.ios.frameworks = 'UIKit'
   end
 
   s.subspec 'CopyWebView' do |ss|
-    ss.source_files = 'CopyWebView/*'
+    ss.source_files = 'EalgeCreateLibrary/CopyWebView/*'
     ss.ios.frameworks = 'UIKit'
   end
 
