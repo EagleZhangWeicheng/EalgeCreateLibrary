@@ -13,6 +13,8 @@
 		6642A4F01D38D16000C5BF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6642A4EF1D38D16000C5BF98 /* Assets.xcassets */; };
 		6642A4F31D38D16000C5BF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6642A4F11D38D16000C5BF98 /* LaunchScreen.storyboard */; };
 		6642A4FE1D38D16000C5BF98 /* EalgeCreateLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A4FD1D38D16000C5BF98 /* EalgeCreateLibraryTests.swift */; };
+		6642A5101D38E43400C5BF98 /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A50D1D38E43400C5BF98 /* CopyLabel.swift */; };
+		6642A5111D38E43400C5BF98 /* CopyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A50F1D38E43400C5BF98 /* CopyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6642A4F91D38D16000C5BF98 /* EalgeCreateLibraryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EalgeCreateLibraryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6642A4FD1D38D16000C5BF98 /* EalgeCreateLibraryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EalgeCreateLibraryTests.swift; sourceTree = "<group>"; };
 		6642A4FF1D38D16000C5BF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6642A50D1D38E43400C5BF98 /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		6642A50F1D38E43400C5BF98 /* CopyWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,8 @@
 		6642A4E71D38D16000C5BF98 /* EalgeCreateLibrary */ = {
 			isa = PBXGroup;
 			children = (
+				6642A50C1D38E43400C5BF98 /* CopyLabel */,
+				6642A50E1D38E43400C5BF98 /* CopyWebView */,
 				6642A4E81D38D16000C5BF98 /* AppDelegate.swift */,
 				6642A4EA1D38D16000C5BF98 /* ViewController.swift */,
 				6642A4EC1D38D16000C5BF98 /* Main.storyboard */,
@@ -94,6 +100,22 @@
 				6642A4FF1D38D16000C5BF98 /* Info.plist */,
 			);
 			path = EalgeCreateLibraryTests;
+			sourceTree = "<group>";
+		};
+		6642A50C1D38E43400C5BF98 /* CopyLabel */ = {
+			isa = PBXGroup;
+			children = (
+				6642A50D1D38E43400C5BF98 /* CopyLabel.swift */,
+			);
+			path = CopyLabel;
+			sourceTree = "<group>";
+		};
+		6642A50E1D38E43400C5BF98 /* CopyWebView */ = {
+			isa = PBXGroup;
+			children = (
+				6642A50F1D38E43400C5BF98 /* CopyWebView.swift */,
+			);
+			path = CopyWebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +219,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6642A5111D38E43400C5BF98 /* CopyWebView.swift in Sources */,
 				6642A4EB1D38D16000C5BF98 /* ViewController.swift in Sources */,
+				6642A5101D38E43400C5BF98 /* CopyLabel.swift in Sources */,
 				6642A4E91D38D16000C5BF98 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -390,6 +414,7 @@
 				6642A5041D38D16000C5BF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6642A5051D38D16000C5BF98 /* Build configuration list for PBXNativeTarget "EalgeCreateLibraryTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +423,7 @@
 				6642A5071D38D16000C5BF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
