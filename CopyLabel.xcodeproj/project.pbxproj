@@ -13,6 +13,8 @@
 		6642A4BF1D38C9EB00C5BF98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6642A4BE1D38C9EB00C5BF98 /* Assets.xcassets */; };
 		6642A4C21D38C9EB00C5BF98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6642A4C01D38C9EB00C5BF98 /* LaunchScreen.storyboard */; };
 		6642A4CD1D38C9EB00C5BF98 /* CopyLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A4CC1D38C9EB00C5BF98 /* CopyLabelTests.swift */; };
+		6642A4D81D38CA2A00C5BF98 /* CopyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A4D71D38CA2A00C5BF98 /* CopyLabel.swift */; };
+		6642A5091D38D2DD00C5BF98 /* CopyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6642A5081D38D2DD00C5BF98 /* CopyWebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		6642A4C81D38C9EB00C5BF98 /* CopyLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6642A4CC1D38C9EB00C5BF98 /* CopyLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CopyLabelTests.swift; sourceTree = "<group>"; };
 		6642A4CE1D38C9EB00C5BF98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6642A4D71D38CA2A00C5BF98 /* CopyLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyLabel.swift; sourceTree = "<group>"; };
+		6642A5081D38D2DD00C5BF98 /* CopyWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CopyWebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				6642A4BE1D38C9EB00C5BF98 /* Assets.xcassets */,
 				6642A4C01D38C9EB00C5BF98 /* LaunchScreen.storyboard */,
 				6642A4C31D38C9EB00C5BF98 /* Info.plist */,
+				6642A4D71D38CA2A00C5BF98 /* CopyLabel.swift */,
+				6642A5081D38D2DD00C5BF98 /* CopyWebView.swift */,
 			);
 			path = CopyLabel;
 			sourceTree = "<group>";
@@ -197,6 +203,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6642A5091D38D2DD00C5BF98 /* CopyWebView.swift in Sources */,
+				6642A4D81D38CA2A00C5BF98 /* CopyLabel.swift in Sources */,
 				6642A4BA1D38C9EB00C5BF98 /* ViewController.swift in Sources */,
 				6642A4B81D38C9EB00C5BF98 /* AppDelegate.swift in Sources */,
 			);
@@ -330,6 +338,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaidou.CopyLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -341,6 +350,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CopyLabel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.zhaidou.CopyLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -390,6 +400,7 @@
 				6642A4D31D38C9EB00C5BF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6642A4D41D38C9EB00C5BF98 /* Build configuration list for PBXNativeTarget "CopyLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -398,6 +409,7 @@
 				6642A4D61D38C9EB00C5BF98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
