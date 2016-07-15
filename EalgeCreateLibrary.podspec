@@ -40,7 +40,7 @@ Pod::Spec.new do |s|
   #
 
   s.license      = "MIT"
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  #s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -64,7 +64,7 @@ Pod::Spec.new do |s|
   #  the deployment target. You can optionally include the target after the platform.
   #
 
-  # s.platform     = :ios
+  #s.platform     = :ios
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
@@ -97,11 +97,13 @@ Pod::Spec.new do |s|
   # s.public_header_files = "Classes/**/*.h"
 
   s.subspec 'CopyLabel' do |ss|
-    ss.source_files = 'EalgeCreateLibrary/CopyLabel/*'
+    ss.source_files = 'CopyLabel/*'
+    ss.ios.frameworks = 'UIKit'
   end
 
   s.subspec 'CopyWebView' do |ss|
-    ss.source_files = 'EalgeCreateLibrary/CopyWebView/*'
+    ss.source_files = 'CopyWebView/*'
+    ss.ios.frameworks = 'UIKit'
   end
 
 
